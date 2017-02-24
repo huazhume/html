@@ -83,13 +83,22 @@
 	height: 400px;
 }
 #container .sidebar {
+	padding: 20px 0px 0px 0px;
 	width: 12%;
 	height: 750px;
 	background-color: #DCDCDC;
 	border-radius: 5px;
 	display: inline-block;
 	float: left;
+	text-align: center;
 }
+#container .sidebar .bookid {
+	float: none;
+	height: 30px;
+	font-size: 13px;
+	color: #333;
+}
+
 #container .list {
 	float: left;
 	display: inline-block;
@@ -99,12 +108,6 @@
 	/*background-color: #555;*/
 }
 
-#container .sidebar iframe{
-	width: 99%;
-	height: 99%;
-	padding: 1%;
-	border: none;
-}
 
 
 
