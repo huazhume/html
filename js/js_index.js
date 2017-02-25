@@ -72,6 +72,7 @@
 			tag.index = i;
 			tag.onclick = function(){
 				if(this.index >0){
+//					alert("进来了1");
 					if(!tagState){
 						tagState = 1;
 					}
@@ -80,8 +81,8 @@
 				}
 				document.getElementById('tag_content').style.display = (tagState ? 'block' : 'none');
 				document.getElementById('index_content').style.display = (tagState ? 'none' : 'block');
-				this.style.backgroundColor = '#000';
 				nav_tag.style.backgroundColor = '#333';
+				this.style.backgroundColor = '#000';
 				nav_tag = this;
 			}
 		}

@@ -83,21 +83,21 @@
 	height: 400px;
 }
 #container .sidebar {
-	padding: 20px 0px 0px 0px;
+	padding: 20px 0px 20px 0px;
 	width: 12%;
-	height: 750px;
+	max-height: 750px;
 	background-color: #DCDCDC;
 	border-radius: 5px;
 	display: inline-block;
 	float: left;
 	text-align: center;
 }
-#container .sidebar .bookid {
+/*#container .sidebar .bookid {
 	float: none;
 	height: 30px;
 	font-size: 13px;
 	color: #333;
-}
+}*/
 
 #container .list {
 	float: left;

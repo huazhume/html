@@ -177,6 +177,9 @@ footer #div_hr {
 /*写一个动画*/
 
 @-webkit-keyframes rightBarToRight {
+	0%{
+		margin-left: 92%;
+	}
 	100% {
 		margin-left: 100%;
 	}
